@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.dxspring.dxspring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class DxspringApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,0 +1,31 @@
+server:
+    error:
+      include-message: always
+      include-binding-errors: always
+    port: 8080
+
+spring:
+    datasource:
+        url: jdbc:postgresql://dxspring.cly0zkweiz9l.us-east-1.rds.amazonaws.com:5432/dxspring
+        username: dxspring
+        password: gotqyx-1nikto-dYqped
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+        database: postgresql
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+    mail:
+        host: smtp.gmail.com
+        port: 587
+        username: dxspring.social@gmail.com
+        password: qhretqrawvnkqzlp
+        properties:
+            mail:
+                auth: true
+                starttls:
+                    enable: true
